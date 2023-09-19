@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* Bootstrap Icons CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+* {
+	margin: 0;
+    padding: 0;
+}
+
+body { 
+/* background-color: #330033; */
+background-image: url('./images//whiteblackbg.jpg');
+background-size: cover;
+overflow: hidden;
+}
+
+#landing { 
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    color: white!important;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.6);
+    font-size: 3rem !important;
+}
+
+#portrait {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+    background-color: #eeeeee;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.socials { 
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.socials h1 { 
+    font-size: 1.5rem!important;
+    margin-right: 1.5rem;
+    font-family: 'Anton', sans-serif;
+}
+
+.twitch {color: #9147ff}
+.twitter {color: black}
+.facebook {color: #1196f5}
+
+@media only screen and (max-width: 1230px) { 
+    #landing { 
+        height: 100vh;
+    }
+
+    .socials { 
+        background-color: rgba(255,255,255,.75);
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 992px) { 
+    #portrait {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 576px) { 
+    .copyright { 
+        margin-bottom: 0 !important;
+    }
+}
+
+
+    
+
